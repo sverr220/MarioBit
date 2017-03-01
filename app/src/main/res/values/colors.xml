@@ -1,0 +1,12 @@
+<resources>
+
+    <color name="black_overlay">#EFEEEEEE</color>
+
+    <color name="background">#ff4f85f2</color>
+
+    <color name="button_text">#ffFF7700</color>
+    <color name="button_bg">#ffFFCC00</color>
+    <color name="button_bg_down">#ffEE9900</color>
+    <color name="button_bg_gradient">#ffEEAA00</color>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <gradient android:angle="270"
+                android:centerColor="@color/button_bg"
+                android:endColor="@color/button_bg_gradient"
+                android:startColor="@color/button_bg_gradient"/>
+            <stroke android:width="2dp" android:color="@color/button_bg_gradient" />
+            <corners android:radius="10dp" />
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <gradient android:angle="270"
+                android:centerColor="@color/button_bg_down"
+                android:endColor="@color/button_bg_gradient"
+                android:startColor="@color/button_bg_gradient"/>
+            <stroke android:width="2dp" android:color="@color/button_bg_down" />
+            <corners android:radius="10dp" />
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <gradient android:angle="270"
+                android:centerColor="@color/button_bg_down"
+                android:endColor="@color/button_bg_gradient"
+                android:startColor="@color/button_bg_gradient"/>
+            <stroke android:width="2dp" android:color="@color/button_bg_down" />
+            <corners android:radius="10dp" />
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape>
+    </item>
+</selector>
